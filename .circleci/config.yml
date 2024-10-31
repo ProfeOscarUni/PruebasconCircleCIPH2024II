@@ -1,7 +1,8 @@
 version: 2.1
 
 jobs:
-  test:
+ 
+ test:
     working_directory: ~/circleci-python
     docker:
       - image: "circleci/python:3.8.6"
@@ -12,7 +13,8 @@ jobs:
           command: |
             python3 -m pip install --upgrade pip
             python3 -m pip install pytest
-      - run: python3 -m pytest       
+      - run: python3 -m pytest
+
 
   build:
     working_directory: ~/circleci-python
