@@ -10,7 +10,7 @@ def test_sum2():
     print("La función suma trabaja correctamente")
 
 def test_sum3():
-    assert sum(-5,6) == 0
+    assert sum(-6,6) == 0
     print("La función suma trabaja correctamente")
     
     
