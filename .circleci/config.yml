@@ -1,8 +1,7 @@
 version: 2.1
 
 jobs:
- 
- test:
+  test:
     working_directory: ~/circleci-python
     docker:
       - image: "circleci/python:3.8.6"
