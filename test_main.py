@@ -8,6 +8,10 @@ def test_sum1():
 def test_sum2():
     assert sum(-5,5) == 0
     print("La función suma trabaja correctamente")
+
+def test_sum3():
+    assert sum(-5,6) == 0
+    print("La función suma trabaja correctamente")
     
     
     
